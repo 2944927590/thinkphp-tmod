@@ -1,0 +1,40 @@
+{
+  "name": "thinkphp-tmodjs",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "description": "Thinkphp Template Compiler",
+  "homepage": "",
+  "keywords": [
+    "Thinkphp",
+    "template",
+    "artTemplate",
+    "TemplateJS",
+    "SeaJS",
+    "CMD"
+  ],
+  "author": "alsy",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "./src/tmod.js",
+  "bin": {
+    "tmod": "./bin/tmod",
+    "tmodjs": "./bin/tmod"
+  },
+  "scripts": {
+    "build": "tmod ./Home/Index",
+    "test": "tmod ./Home/*"
+  },
+  "dependencies": {
+    "art-template": "3.0.x",
+    "uglify-js": "2.4.0",
+    "semver": "2.3.0"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "art-template": "^3.0.3",
+    "jquery": "^3.0.0",
+    "tmod": "0.0.1"
+  }
+}
