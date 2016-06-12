@@ -23,8 +23,9 @@
     "tmodjs": "./bin/tmod"
   },
   "scripts": {
-    "build": "tmod ./Home/Index",
-    "test": "tmod ./Home/*"
+    "build": "tmod ./src/Index",
+    "test": "tmod ./Home/*",
+    "watch": "gulp watch"
   },
   "dependencies": {
     "art-template": "3.0.x",
@@ -35,6 +36,9 @@
   "devDependencies": {
     "art-template": "^3.0.3",
     "jquery": "^3.0.0",
-    "tmod": "0.0.1"
+    "tmod": "0.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2"
   }
 }
