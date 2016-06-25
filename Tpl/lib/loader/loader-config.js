@@ -2,7 +2,8 @@ seajs.config({
     base: TPL,
     paths:{
         _core: TPL + '/lib/core/',
-        _service: TPL + '/Home/_service'
+        _service: TPL + '/dist/Home/_service',
+        Home_index: TPL + '/dist/Home/Index/build'
     },
     alias: {
         hy: '_core/hy.js?v=201601282344',

@@ -6,12 +6,11 @@ use Think\Controller;
 class IndexController extends Controller
 {
     public function index() {
-
         $this->display();
     }
 
     public function indexData() {
-        $data = array(
+        $data = array (
             "title" => '国内要闻',
             "time" =>  time(),
             "list" => array(

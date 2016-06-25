@@ -23,7 +23,7 @@
     "tmodjs": "./bin/tmod"
   },
   "scripts": {
-    "build": "tmod ./src/Index",
+    "build": "gulp default && tmod ./src/Home/Index ",
     "test": "tmod ./Home/*",
     "watch": "gulp watch"
   },
@@ -35,10 +35,11 @@
   "license": "BSD",
   "devDependencies": {
     "art-template": "^3.0.3",
-    "jquery": "^3.0.0",
-    "tmod": "0.0.1",
     "del": "^2.2.0",
     "gulp": "^3.9.0",
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "jquery": "^3.0.0",
+    "tmod": "0.0.1"
   }
 }

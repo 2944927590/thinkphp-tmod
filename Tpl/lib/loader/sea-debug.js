@@ -1125,8 +1125,6 @@ seajs.config = function(configData) {
   }
 
   emit("config", configData)
-  console.log(seajs);
-  console.log(global);
   return seajs
 }
 
